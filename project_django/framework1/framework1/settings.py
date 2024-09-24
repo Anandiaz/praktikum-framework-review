@@ -119,6 +119,14 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+# Lokasi folder static di proyek
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
+# Folder yang digunakan saat production (dikumpulkan dari semua apps)
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
