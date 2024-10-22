@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "ais",
     "django_bootstrap5",
-    "django_seed"
+    "django_seed",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -83,8 +84,9 @@ DATABASES = {
         "USER": "root",
         "PASSWORD": "",
         "HOST": "127.0.0.1",
-        "PORT": "3306"
+        "PORT": "3306",
     }
+    
 }
 
 
